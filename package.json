@@ -1,6 +1,7 @@
 {
 	"scripts": {
-		"build:css": "npx @tailwindcss/cli -i ./public/css/app.css -o ./public/css/output.css"
+		"build:css": "npx @tailwindcss/cli -i ./public/css/app.css -o ./public/css/output.css",
+		"run:dev": "air"
 	},
 	"devDependencies": {
 		"@tailwindcss/cli": "^4.1.3",
